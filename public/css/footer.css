@@ -1,0 +1,419 @@
+/* html,body,header,phần chung */
+*, :after, :before {
+    box-sizing: border-box;
+}
+html {
+    background: #f4f4f4;
+}
+body {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    background: #f4f4f4;
+    font-size: 14px;
+    margin: 0;
+}
+header#header {
+    min-width: 1270px;
+}
+.container {
+    width: 1270px!important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container:after {
+    clear: both;
+}
+.container-fluid:before,.container:before,.row:before {
+    display: table;
+    content: " ";
+}
+.container-fluid:after,.container:after,.row:after{
+    display: table;
+    content: " ";
+}
+/*footer*/
+#footer{
+    min-width: 1270px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    transform: translate3d(0,0,0);
+     background: #fff;
+    margin-top: 40px;
+}
+footer{
+    display: block;  
+}
+.tiki-newsletter {
+    background: #f7f7f7;
+    height: 100px;
+    margin-top: 20px;
+}
+.col-lg-12{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.clearfix:before {
+    display: table;
+    content: " ";
+}
+.tiki-newsletter .tiki-newsletter-title {
+    float: left;
+    width: 545px;
+    margin-right: 30px;
+}
+.tiki-newsletter .tiki-newsletter-title .tikicon, .tiki-newsletter .tiki-newsletter-title img {
+    float: left;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+.tikicon.icon-newsletter {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: 0 0;
+    width: 163px;
+    height: 99px;
+}
+.tiki-newsletter .tiki-newsletter-title h3 {
+    color: #4e5052;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+h3,h5{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.tiki-newsletter .tiki-newsletter-title h5 {
+    font-size: 13px;
+    color: #4e5052;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.clearfix:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+.tiki-newsletter .mc-field-group {
+    float: left;
+    width: 345px;
+    margin-right: 10px;
+    margin-top: 35px;
+}
+input[placeholder] {
+    text-overflow: ellipsis;
+}
+.form-control {
+    font-size: 13px;
+    box-shadow: none;
+}
+.form-control {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+.form-control {
+    line-height: 1.42857;
+    color: #555;
+    display: block;
+}
+.tiki-newsletter .tiki-newsletter-helper {
+    font-size: 12px;
+    color: red;
+    padding-left: 5px;
+    margin-top: 5px;
+    display: block;
+}
+.tiki-newsletter .button {
+    background: #00afef;
+    color: #fff;
+    margin-top: 35px;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    user-select: none;
+}
+.line-bg-body {
+    border: none;
+    border-top: 1px solid #f7f7f7;
+    width: 100%;
+    height: 0;
+    margin-top: 0;
+}
+hr {
+    margin-bottom: 20px;
+    box-sizing: content-box;
+}
+.list-footer-nav {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+element.style {
+    margin-right: 15px;
+    width: 262px;
+}
+.footer-nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 226px;
+    margin-right: 14px;
+}
+.footer-nav h4 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 0 17px;
+    font-stretch: normal;
+}
+.footer-nav .hotline-number {
+    color: #c4011a;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+p {
+    margin: 0 0 10px;
+}
+.footer-nav .hotline-number a {
+    color: inherit;
+}
+.footer-nav .hotline-number small {
+    color: #333;
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer-nav .nav-list a {
+    margin-bottom: 11px;
+    display: block;
+    color: #333;
+    font-size: 12px;
+}
+.footer-nav .hotline-number-normal {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.footer-nav .hotline-number-normal a {
+    display: inline-block!important;
+    margin-bottom: 0!important;
+}
+.footer-nav:last-child {
+    margin-right: 0;
+}
+.footer-nav .nav-other {
+    overflow: hidden;
+}
+.footer-nav .nav-other .tikicon{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+.tikicon.icon-visa {
+    background-position: -198px -155px;
+    width: 54px;
+    height: 33px;
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+}
+.tikicon.icon-mastercard {
+    background-position: -207px -200px;
+    width: 54px;
+    height: 33px;
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+}
+.tikicon.icon-jcb {
+    background-position: -139px -155px;
+    width: 54px;
+    height: 33px;
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+}
+.tikicon.icon-cash {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: -264px -104px;
+    width: 54px;
+    height: 33px;
+}
+.tikicon.icon-internet-banking {
+    background-position: -257px -155px;
+    width: 54px;
+    height: 33px;
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+}
+.tikicon.icon-installment {
+    background-position: -148px -200px;
+    width: 54px;
+    height: 33px;
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+}
+.footer-nav .appstore-title {
+    margin-top: 36px;
+}
+.footer-nav .nav-other.social-conn a {
+    margin-right: 10px;
+}
+.footer-nav .nav-other a{
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.tikicon.icon-fb {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: -349px -209px;
+    width: 32px;
+    height: 32px;
+}
+.footer-nav .nav-other.social-conn a {
+    margin-right: 10px;
+}
+.tikicon.icon-youtube {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: -349px -172px;
+    width: 32px;
+    height: 32px;
+}
+.footer-nav .nav-other.social-conn a:last-child {
+    margin-right: 0;
+}
+.tikicon.icon-footer-zalo {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: -349px -135px;
+    width: 32px;
+    height: 32px;
+}
+.tikicon.icon-appstore {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: -125px -104px;
+    width: 134px;
+    height: 40px;
+}
+.footer-nav .nav-other.app-store a .tikicon {
+    margin-bottom: 0;
+}
+.tikicon.icon-playstore {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: 0 -155px;
+    width: 134px;
+    height: 40px;
+}
+.footer-address {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+address {
+    font-style: normal;
+    line-height: 1.42857;
+}
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857;
+}
+.footer-address .address-office {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.tikicon.icon-location {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: 0 -265px;
+    width: 38px;
+    height: 57px;
+}
+.footer-address .info-address {
+    width: 492px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.footer-address .info-address p.add-real {
+    color: #333;
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer-address .info-address p {
+    font-style: normal;
+    font-size: 11px;
+    color: #4a4a4a;
+    margin-bottom: 1px;
+    line-height: 22px;
+    font-weight: 300;
+}
+p {
+    margin: 0 0 10px;
+}
+.footer-address .info-address p b {
+    font-weight: 700;
+}
+.footer-address .address-service {
+    margin-left: 30px;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-address .info-address {
+    width: 492px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.footer-address .info-address p a {
+    color: #007ff0;
+    font-size: 11px;
+}
+.footer-address .info-address p .number {
+    color: #333;
+    font-weight: 500;
+}
+.footer-cpy-right {
+    padding: 15px 0 0;
+}
+.footer-cpy-right .cpy-right-info {
+    display: inline-block;
+    color: #333;
+}
+.footer-cpy-right .cpy-right-info-right {
+    float: right;
+    margin-right: 68px;
+}
+.footer-cpy-right .cpy-right-info h5 {
+    margin: 0 0 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+ h5{
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+}
+.footer-cpy-right .cpy-right-info p {
+    font-size: 11px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.tikicon.icon-bo-cong-thuong {
+    background-image: url(https://salt.tikicdn.com/desktop/img/sprite.png?v=1519811185467);
+    background-position: 0 -104px;
+    width: 120px;
+    height: 46px;
+}
